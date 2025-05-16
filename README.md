@@ -14,15 +14,23 @@
 | **One‑file design** | Everything—including I/O, CLI, logging—lives in `news_sentiment_bot.py` |
 | **Cron‑ready** | Designed to run headless every X minutes |
 
-## 🚀 Quick Start
+You will need a .env file that contains NewAPI key. Please follow the instructions.
+For the NewsAPI key, you will need to sign up in: https://newsapi.org/
+Once signed up:
+1. Create a notepad file
+2. Write "NEWSAPI_KEY=Your_API_Key" without the double quotes. Put your key in "Your_API_Key"
+3. Save it as .env (Choose file type as all_files)
+4. Keep it in the same directory folder
 
-```bash
-git clone https://github.com/RHPallock/Stock_Analysis.git
-cd Stock_Analysis
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-echo "NEWSAPI_KEY=<your-key>" > .env
-python news_sentiment_bot.py
-```
+
+Usage (after installing requirements):
+
+    python3 news_sentiment_bot.py                 # defaults: NVDA, 1‑day window
+    python3 news_sentiment_bot.py --ticker AAPL   # different ticker
+    python3 news_sentiment_bot.py --days 3        # 3‑day look‑back window
+    python3 news_sentiment_bot.py --alpha 0.4     # change EMA decay
+    python3 news_sentiment_bot.py --pos 0.3 --neg -0.3  # custom thresholds
+
+
 
 
