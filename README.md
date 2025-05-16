@@ -1,4 +1,4 @@
-# News Sentiment Bot
+# Stock Analysis based on sentiment analysis
 
 *A lightweight, fully‑open‑source CLI that fuses real‑time news with FinBERT sentiment analysis to spit out a **BUY / HOLD / SELL** call for any stock ticker.*
 
