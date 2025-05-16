@@ -17,8 +17,8 @@
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/RHPallock/news-sentiment-bot.git
-cd news-sentiment-bot
+git clone https://github.com/RHPallock/Stock_Analysis.git
+cd Stock_Analysis
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 echo "NEWSAPI_KEY=<your-key>" > .env
