@@ -14,7 +14,11 @@
 | **One‑file design** | Everything—including I/O, CLI, logging—lives in `news_sentiment_bot.py` |
 | **Cron‑ready** | Designed to run headless every X minutes |
 
-You will need a .env file that contains NewAPI key. Please follow the instructions.
+Instructions:
+Install all the packages from the requirements.txt.
+    Run pip install requirements.txt
+    
+You will also need a .env file that contains NewAPI key.
 For the NewsAPI key, you will need to sign up in: https://newsapi.org/
 Once signed up:
 1. Create a notepad file
