@@ -19,7 +19,7 @@
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/<you>/news-sentiment-bot.git
+git clone https://github.com/RHPallock/news-sentiment-bot.git
 cd news-sentiment-bot
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
