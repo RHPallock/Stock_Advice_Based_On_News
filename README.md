@@ -2,8 +2,6 @@
 
 *A lightweight, fully‑open‑source CLI that fuses real‑time news with FinBERT sentiment analysis to spit out a **BUY / HOLD / SELL** call for any stock ticker.*
 
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
-![License MIT](https://img.shields.io/badge/license-MIT-green)
 
 ## ✨ Key Features
 
@@ -27,5 +25,4 @@ echo "NEWSAPI_KEY=<your-key>" > .env
 python news_sentiment_bot.py
 ```
 
-## ⚙️ CLI Options
-(see detailed section in README above)
+
