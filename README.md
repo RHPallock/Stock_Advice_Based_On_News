@@ -1,10 +1,10 @@
 Requirements:
-    python-dotenv
-    newsapi-python
-    transformers
-    torch
-    pandas
-    tqdm
+    1. python-dotenv
+    2. newsapi-python
+    3. transformers
+    4. torch
+    5. pandas
+    6. tqdm
 
 Set your NewsAPI key once in a .env file in the same folder:
     NEWSAPI_KEY=your_long_key_string
