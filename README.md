@@ -14,7 +14,7 @@
 | **One‑file design** | Everything—including I/O, CLI, logging—lives in `news_sentiment_bot.py` |
 | **Cron‑ready** | Designed to run headless every X minutes |
 
-Instructions:
+## Instructions:
 Install all the packages from the requirements.txt.
     Run pip install requirements.txt
     
