@@ -29,11 +29,11 @@ Once signed up:
 
 Usage (after installing requirements):
 
-    python3 news_sentiment_bot.py                 # defaults: NVDA, 1‑day window
-    python3 news_sentiment_bot.py --ticker AAPL   # different ticker
-    python3 news_sentiment_bot.py --days 3        # 3‑day look‑back window
-    python3 news_sentiment_bot.py --alpha 0.4     # change EMA decay
-    python3 news_sentiment_bot.py --pos 0.3 --neg -0.3  # custom thresholds
+    python3 Stock_Predict.py                 # defaults: NVDA, 1‑day window
+    python3 Stock_Predict.py --ticker AAPL   # different ticker
+    python3 Stock_Predict.py --days 3        # 3‑day look‑back window
+    python3 Stock_Predict.py --alpha 0.4     # change EMA decay
+    python3 Stock_Predict.py --pos 0.3 --neg -0.3  # custom thresholds
 
 
 
